@@ -5,7 +5,7 @@
 
 	"author": "Sean O'Leary",
 	"homepage_url": "https://o-leary.com/",
-	"version": "1.0",
+	"version": "1.1",
 
 	"manifest_version": 2,
 
@@ -22,5 +22,8 @@
 	],
 	"background": {
 		"scripts": ["duckduckgowithcortana.js"]
-	}
+	},
+  "externally_connectable": {
+    "matches": ["*://o-leary.com/*"]
+  }
 }
