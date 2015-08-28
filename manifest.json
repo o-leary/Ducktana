@@ -1,10 +1,10 @@
 {
-	"name": "DuckDuckGo with Cortana",
-	"short_name": "DuckDuckGoWithCortana",
+	"name": "Ducktana",
+	"short_name": "Ducktana",
 	"description": "Redirect Bing urls to DuckDuckGo for use with cortana.",
 
 	"author": "Sean O'Leary",
-	"homepage_url": "https://o-leary.com/",
+	"homepage_url": "https://o-leary.com/downloads/ducktana",
 	"version": "1.1",
 
 	"manifest_version": 2,
@@ -21,7 +21,7 @@
 		"background"
 	],
 	"background": {
-		"scripts": ["duckduckgowithcortana.js"]
+		"scripts": ["ducktana.js"]
 	},
   "externally_connectable": {
     "matches": ["*://o-leary.com/*"]
